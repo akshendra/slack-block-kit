@@ -35,7 +35,7 @@ const text = (textValue, formatting = TEXT_FORMAT_PLAIN, { emoji, verbatim } = {
   if (!isUndefined(emoji) && typeof emoji !== 'boolean') {
     throw new ObjectError('Emoji has to be boolean')
   }
-  
+
   if (!isUndefined(verbatim) && typeof verbatim !== 'boolean') {
     throw new ObjectError('Verbatim has to be boolean')
   }
